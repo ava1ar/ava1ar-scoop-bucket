@@ -8,7 +8,7 @@
         "JDK11": ["java/openjdk11", "java/temurin11-jdk"]
     },
     "url": [ "https://github.com/astelmachonak-nydig/okta-aws-cli-assume-role/releases/download/v3.0.0/okta-aws-cli-3.0.0.jar", "https://raw.githubusercontent.com/astelmachonak-nydig/okta-aws-cli-assume-role/main/bin/OktaAwsCli.psm1"],
-    "hash": ["d57b8fd6de20e2bf595782690c273eb806aa555ceab20d5fa7608774f49aee78", "794670f6e6141d4def9d22f033e6ea6436b0793d643e5c9afab3875c102241df"],
+    "hash": ["d57b8fd6de20e2bf595782690c273eb806aa555ceab20d5fa7608774f49aee78", "60098bb6f6972eb39290868cde74d10319c92097045f694b50d48db13b56d0b1"],
     "psmodule": {
         "name": "OktaAwsCli"
     },
