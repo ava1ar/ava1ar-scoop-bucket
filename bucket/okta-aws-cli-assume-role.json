@@ -14,7 +14,7 @@
     },
     "post_install": "New-Item -ItemType Directory -Force \"$Env:USERPROFILE/.okta\" | Out-Null; Copy-Item \"$original_dir/okta-aws-cli-$version.jar\" \"$Env:USERPROFILE/.okta/okta-aws-cli.jar\"",
     "uninstaller": {
-        "script": "Remove-Item -Force \"$Env:USERPROFILE/.okta\""
+        "script": "Remove-Item -Recurse -Force \"$Env:USERPROFILE/.okta\""
     },
     "checkver": {
         "github": "https://github.com/oktadev/okta-aws-cli-assume-role"
