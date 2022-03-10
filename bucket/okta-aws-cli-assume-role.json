@@ -3,7 +3,10 @@
     "description": "Okta AWS CLI Assume Role Tool",
     "homepage": "https://github.com/oktadev/okta-aws-cli-assume-role",
     "license": "Apache-2.0",
-    "depends": "gluon-openjfx-sdk",
+    "depends": [
+        "aws",
+        "gluon-openjfx-sdk"
+    ],
     "suggest": {
         "JDK11": [
             "java/openjdk11",

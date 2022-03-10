@@ -12,7 +12,7 @@ The [scoop](https://scoop.sh/) bucket contains tools distributed by the NYDIG de
 ## Installation
 
 1. Add bucket to your scoop configuration: `scoop bucket add nydig-devtools git@github.com:astelmachonak-nydig/nydig-devtools.git`
-2. Install application by running `scoop install <application>`.
+2. Install application by running `scoop install <application>`. Required dependencies will be installed automatically.
 
 ## List of applications
 
