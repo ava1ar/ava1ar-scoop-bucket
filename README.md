@@ -16,7 +16,7 @@ The [scoop](https://scoop.sh/) bucket contains tools distributed by the NYDIG de
 
 ## List of applications
 
-- [okta-aws-cli-assume-role](https://github.com/oktadev/okta-aws-cli-assume-role)
+- [okta-aws-cli-assume-role](https://github.com/oktadev/okta-aws-cli-assume-role): `scoop install okta-aws-cli-assume-role`
 
 ## Uninstall
 
