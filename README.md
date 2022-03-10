@@ -1,24 +1,27 @@
 # Scoop Bucket For NYDIG Devtools
 
-<!-- Uncomment the following line after replacing placeholders -->
-<!-- [![Build Status](https://ci.appveyor.com/api/projects/status/<appveyor-badge-id>?svg=true)](https://ci.appveyor.com/project/<username>/<bucketname> "Build Status") [![Excavator](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) -->
+## Purpose
 
-Template bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
+The [scoop](https://scoop.sh/) bucket contains tools distributed by the NYDIG devtools team.
 
-How do I install these manifests?
----------------------------------
+## Prerequisites
 
-To add this bucket, run `scoop bucket add nydig-devtools git@github.com:astelmachonak-nydig/nydig-devtools.git`. To install, do `scoop install <manifest>`.
+1. Install and configure `Scoop` as described [here](https://nydig.atlassian.net/wiki/spaces/EN/pages/959414291/Windows-native+development+environment+setup#Installing-Scoop).
+2. Make sure your access to GitHub is configured using SSH keys. Instruction how to configure the access using command-line ssh client is [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh); steps to configure the access using Putty are listed [here](https://nydig.atlassian.net/wiki/spaces/EN/pages/959414291/Windows-native+development+environment+setup#Git-and-SSH-setup-using-Putty-tools).
 
-How do I contribute new manifests?
-----------------------------------
+## Installation
 
-To make a new manifest contribution, please read the [Contributing Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md).
+1. Add bucket to your scoop configuration: `scoop bucket add nydig-devtools git@github.com:astelmachonak-nydig/nydig-devtools.git`
+2. Install application by running `scoop install <application>`.
 
-----
+## List of applications
 
-#### To use this template
+- [okta-aws-cli-assume-role](https://github.com/oktadev/okta-aws-cli-assume-role)
 
-- Modify the Readme.md and the bin/auto-pr.ps1 files accordingly.
-- Enable GitHub Actions for this repository.
-- Login to AppVeyor and import this repository.
+## Uninstall
+
+To uninstall the brew tap, you can run
+
+`scoop bucket rm nydig-devtools`
+
+You will need to uninstall any scripts you have installed from the nydig-devtools tap before running this command.
