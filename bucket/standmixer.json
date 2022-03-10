@@ -1,0 +1,14 @@
+{
+    "version": "20220308.1",
+    "description": "Utility automating repository creation",
+    "homepage": "https://github.com/NYDIG/standmixer",
+    "depends": "poetry",
+    "url": "https://github.com/NYDIG/standmixer/releases/download/v20220308.1/standmixer-v20220308.1.monterey.bottle.tar.gz",
+    "hash": "40eefd3599a83d533938b6946ad498cb9541bc0273aaba0f36c505a273ab53b3",
+    "checkver": {
+        "github": "https://github.com/NYDIG/standmixer"
+    },
+    "autoupdate": {
+        "url": "https://github.com/NYDIG/standmixer/releases/download/v20220308.1/standmixer-v$version.monterey.bottle.tar.gz"
+    }
+}
