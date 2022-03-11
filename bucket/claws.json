@@ -12,8 +12,8 @@
         ]
     },
     "url": [
-        "https://github.com/NYDIG/claws/releases/download/v0.0.3/claws-x86_64-pc-windows-msvc.exe#/claws.exe",
-        "https://github.com/NYDIG/claws/releases/download/v0.0.3/clokta-x86_64-pc-windows-msvc.exe#/clokta.exe"
+        "https://github.com/NYDIG/claws/releases/download/v0.0.3/claws-x86_64-pc-windows-msvc.exe",
+        "https://github.com/NYDIG/claws/releases/download/v0.0.3/clokta-x86_64-pc-windows-msvc.exe"
     ],
     "hash": [
         "10c0c5ce00de9244ad0b76432ed41ca5ca12309625f24855a2c32eab081c28cf",
