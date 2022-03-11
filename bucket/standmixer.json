@@ -2,8 +2,9 @@
     "version": "0.1.2",
     "description": "Utility automating repository creation",
     "homepage": "https://github.com/NYDIG/standmixer",
-    "depends": "poetry",
-    "url": "http://localhost/standmixer-0.1.2-py3-none-any.whl",
+    "license":"Proprietary",
+    "depends": "python",
+    "url": "https://github.com/NYDIG/standmixer/releases/download/v20220308.1/standmixer-0.1.2-py3-none-any.whl",
     "hash": "5e01eef5ee4180b30cffcafa4c527115791a4e1725b9f52818d06ce325dd615a",
     "installer": {
         "script": [
@@ -24,6 +25,6 @@
         "github": "https://github.com/NYDIG/standmixer"
     },
     "autoupdate": {
-        "url": "https://github.com/NYDIG/standmixer/releases/download/v20220308.1/standmixer-v$version.monterey.bottle.tar.gz"
+        "url": "https://github.com/NYDIG/standmixer/releases/download/v$version/standmixer-v$version-py3-none-any.whl"
     }
 }
