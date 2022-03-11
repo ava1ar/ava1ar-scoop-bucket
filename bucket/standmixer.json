@@ -8,8 +8,7 @@
     "post_install": [
         "pushd \"$dir\"",
         "try {",
-        "    scoop reset python",
-        "    iex \"$(scoop which python) setup.py install\"",
+        "    iex \"$(scoop which python) setup.py standmixer-$version\\install\"",
         "}",
         "finally {",
         "    popd",
