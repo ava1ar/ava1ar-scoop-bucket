@@ -5,18 +5,20 @@
     "depends": "poetry",
     "url": "http://localhost/standmixer-0.1.2-py3-none-any.whl",
     "hash": "5e01eef5ee4180b30cffcafa4c527115791a4e1725b9f52818d06ce325dd615a",
-    "post_install": [
-        "pushd \"$dir\"",
-        "python -m venv standmixer",
-        ".\\standmixer\\Scripts\\activate",
-        "try {",
-        "    python -m pip install standmixer-$version-py3-none-any.whl",
-        "}",
-        "finally {",
-        "    deactivate",
-        "    popd",
-        "}"
-    ],
+    "installer": {
+        "script": [
+            "pushd \"$dir\"",
+            "python -m venv standmixer",
+            ".\\standmixer\\Scripts\\activate",
+            "try {",
+            "    python -m pip install standmixer-$version-py3-none-any.whl",
+            "}",
+            "finally {",
+            "    deactivate",
+            "    popd",
+            "}"
+        ]
+    },
     "bin": "standmixer\\bin\\standmixer.exe",
     "checkver": {
         "github": "https://github.com/NYDIG/standmixer"
