@@ -19,7 +19,7 @@
             "}"
         ]
     },
-    "bin": "standmixer\\bin\\standmixer.exe",
+    "bin": "standmixer\\Scripts\\standmixer.exe",
     "checkver": {
         "github": "https://github.com/NYDIG/standmixer"
     },
