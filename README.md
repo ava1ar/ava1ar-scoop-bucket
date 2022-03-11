@@ -1,4 +1,4 @@
-# Scoop Bucket For NYDIG Devtools
+# Scoop bucket for NYDIG devtools
 
 ## Purpose
 
@@ -27,12 +27,17 @@ The [scoop](https://scoop.sh/) bucket contains tools distributed by the NYDIG de
 
 ## List of applications
 
-- [okta-aws-cli-assume-role](https://github.com/oktadev/okta-aws-cli-assume-role): `scoop install okta-aws-cli-assume-role`
-- [ standmixer](https://github.com/NYDIG/standmixer): `scoop install standmixer`
+- [okta-aws-cli-assume-role](https://github.com/oktadev/okta-aws-cli-assume-role) - okta AWS CLI assume role tool: `scoop install okta-aws-cli-assume-role`
+- [standmixer](https://github.com/NYDIG/standmixer) - utility automating repository creation: `scoop install standmixer`
+- [claws](https://github.com/NYDIG/claws) - command line aws/okta/duo tooling: `scoop install claws`
 
 ## Uninstall
 
-To uninstall the brew tap, you can run
+To uninstall the application run
+
+`scoop uninstall <application>`
+
+To uninstall the devtools bucket you can run
 
 `scoop bucket rm nydig-devtools`
 
