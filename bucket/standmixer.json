@@ -8,7 +8,7 @@
     "post_install": [
         "pushd \"$dir\"",
         "try {",
-        "    iex \"$(scoop which python) -m pip install standmixer-$version-py3-none-any.whl\"",
+        "    iex \"$(scoop which python) -m pip install --force-reinstall standmixer-$version-py3-none-any.whl\"",
         "}",
         "finally {",
         "    popd",
