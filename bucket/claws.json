@@ -11,14 +11,18 @@
             "1password-cli"
         ]
     },
-    "url": [
-        "https://github.com/NYDIG/claws/releases/download/v0.0.3/claws-x86_64-pc-windows-msvc.exe",
-        "https://github.com/NYDIG/claws/releases/download/v0.0.3/clokta-x86_64-pc-windows-msvc.exe"
-    ],
-    "hash": [
-        "10c0c5ce00de9244ad0b76432ed41ca5ca12309625f24855a2c32eab081c28cf",
-        "a4dc214306bbb4dc1f88f7cdc6bcbb90e9b00208e5aebcaaa36d28f06a57c976"
-    ],
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/NYDIG/claws/releases/download/v0.0.3/claws-x86_64-pc-windows-msvc.exe#/claws.exe",
+                "https://github.com/NYDIG/claws/releases/download/v0.0.3/clokta-x86_64-pc-windows-msvc.exe#/clokta.exe"
+            ],
+            "hash": [
+                "10c0c5ce00de9244ad0b76432ed41ca5ca12309625f24855a2c32eab081c28cf",
+                "a4dc214306bbb4dc1f88f7cdc6bcbb90e9b00208e5aebcaaa36d28f06a57c976"
+            ]
+        }
+    },
     "bin": [
         "claws.exe",
         "clokta.exe"
@@ -27,6 +31,10 @@
         "github": "https://github.com/NYDIG/claws"
     },
     "autoupdate": {
-        "url": "https://github.com/NYDIG/claws/releases/download/v$version/claws-x86_64-pc-windows-msvc.exe"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/NYDIG/claws/releases/download/v$version/claws-x86_64-pc-windows-msvc.exe"
+            }
+        }
     }
 }
