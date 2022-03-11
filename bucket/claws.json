@@ -7,7 +7,7 @@
         "AWS CLI": [
             "aws"
         ],
-        "1Password integration": [
+        "1Password CLI integration": [
             "1password-cli"
         ]
     },
