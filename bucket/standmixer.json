@@ -1,5 +1,5 @@
 {
-    "version": "1.2",
+    "version": "0.1.2",
     "description": "Utility automating repository creation",
     "homepage": "https://github.com/NYDIG/standmixer",
     "depends": "poetry",
