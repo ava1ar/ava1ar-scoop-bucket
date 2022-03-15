@@ -1,5 +1,5 @@
 {
-    "version": "0.0.3",
+    "version": "0.1.0",
     "description": "Command line aws/okta/duo tooling",
     "homepage": "https://github.com/NYDIG/claws",
     "license": "Proprietary",
@@ -14,8 +14,8 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/NYDIG/claws/releases/download/v0.0.3/claws-x86_64-pc-windows-msvc.exe#/claws.exe",
-                "https://github.com/NYDIG/claws/releases/download/v0.0.3/clokta-x86_64-pc-windows-msvc.exe#/clokta.exe"
+                "https://github.com/NYDIG/claws/releases/download/v0.1.0/claws-x86_64-pc-windows-msvc.exe#/claws.exe",
+                "https://github.com/NYDIG/claws/releases/download/v0.1.0/clokta-x86_64-pc-windows-msvc.exe#/clokta.exe"
             ],
             "hash": [
                 "10c0c5ce00de9244ad0b76432ed41ca5ca12309625f24855a2c32eab081c28cf",
