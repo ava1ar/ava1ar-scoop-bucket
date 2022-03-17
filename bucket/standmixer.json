@@ -1,11 +1,11 @@
 {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Utility automating repository creation",
     "homepage": "https://github.com/NYDIG/standmixer",
     "license":"Proprietary",
     "depends": "python",
-    "url": "https://github.com/NYDIG/standmixer/releases/download/v20220308.1/standmixer-0.1.2-py3-none-any.whl",
-    "hash": "5e01eef5ee4180b30cffcafa4c527115791a4e1725b9f52818d06ce325dd615a",
+    "url": "https://github.com/NYDIG/standmixer/releases/download/v0.1.3/standmixer-0.1.3-py3-none-any.whl",
+    "hash": "b1faf629647a59c686a85f56fea92cf7386ecd5f3418bfd3fc7f6560a5b5a9b4",
     "installer": {
         "script": [
             "pushd \"$dir\"",
