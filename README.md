@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The [scoop](https://scoop.sh/) bucket contains tools distributed by the NYDIG devtools team.
+This repository contains [scoop](https://scoop.sh/) bucket with applications manifests for internal tools distributed by the NYDIG devtools team. They can be easily installed and updated on the **Windows machines**.
 
 ## Prerequisites
 
@@ -21,13 +21,12 @@ The [scoop](https://scoop.sh/) bucket contains tools distributed by the NYDIG de
 
 - Copy generated token into clipboard and click `Configure SSO -> Authorize` for it
 
-3. Add token to the scoop app by running `scoop config gh_api_token YOUR_TOKEN`, replacing `YOUR_TOKEN` with actual token value
+3. Add token to the scoop app by running `scoop config checkver_token YOUR_TOKEN`, replacing `YOUR_TOKEN` with actual token value. Run ``scoop config` again and confirm the `checkver_token` value is listed in the output
 
 4. Install application by running `scoop install <application>`. Required dependencies will be installed automatically.
 
 ## List of applications
 
-- [okta-aws-cli-assume-role](https://github.com/oktadev/okta-aws-cli-assume-role) - okta AWS CLI assume role tool: `scoop install okta-aws-cli-assume-role`
 - [standmixer](https://github.com/NYDIG/standmixer) - utility automating repository creation: `scoop install standmixer`
 - [claws](https://github.com/NYDIG/claws) - command line aws/okta/duo tooling: `scoop install claws`
 
