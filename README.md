@@ -21,7 +21,7 @@ This repository contains [scoop](https://scoop.sh/) bucket with applications man
 
 - Copy generated token into clipboard and click `Configure SSO -> Authorize` for it
 
-3. Add token to the scoop app by running `scoop config checkver_token YOUR_TOKEN`, replacing `YOUR_TOKEN` with actual token value. Run ``scoop config` again and confirm the `checkver_token` value is listed in the output
+3. Add token to the scoop app by running `scoop config gh_token YOUR_TOKEN`, replacing `YOUR_TOKEN` with actual token value. Run ``scoop config` again and confirm the `gh_token` value is listed in the output
 
 4. Install application by running `scoop install <application>`. Required dependencies will be installed automatically.
 
