@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
-#  schedule:
-#    - cron: '20 */4 * * *'
+  schedule:
+    - cron: "0 6 * * *" # 6am UTC time ~ midnight in US
 name: Excavator
 jobs:
   excavate:
@@ -13,4 +13,5 @@ jobs:
       uses: ScoopInstaller/GithubActions@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_BRANCH: main
         SKIP_UPDATED: '1'
