@@ -8,7 +8,11 @@ jobs:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@main
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}    
     - name: PullRequestHandler
-      uses: ScoopInstaller/GithubActions@main
+      uses: astelmachonak-nydig/GithubActions@cfb407e41ba6309b4b2aa8ce298a9d7a59796660
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SCOOP_BRANCH: develop
