@@ -1,0 +1,13 @@
+{
+    "version": "1.5",
+    "description": "An SSH agent that supports using FIDO/U2F security keys with PuTTY and OpenSSH for Windows.",
+    "homepage": "https://github.com/tetractic/SK-SSH-Agent",
+    "license": "GPL-3.0",
+    "url": "https://github.com/tetractic/SK-SSH-Agent/releases/download/v1.5/SK-SSH-Agent-1.5.zip",
+    "hash": "4ba191ff59e2b8cb372eb9d34c35e3b3fe42af87b509a0d7d567256083515fb0",
+    "extract_dir": "SK SSH Agent",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/tetractic/SK-SSH-Agent/releases/download/v$version/SK-SSH-Agent-$version.zip"
+    }
+}
