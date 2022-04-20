@@ -1,0 +1,20 @@
+{
+    "version": "0.0.5",
+    "description": "Allows connecting from Windows to Docker running in WSL2.",
+    "homepage": "https://github.com/slonopotamus/docker-wsl-proxy",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/slonopotamus/docker-wsl-proxy/releases/download/0.0.5/docker-wsl-proxy.exe",
+            "hash": "8ee04e06d82fdebb5ef3bb8c1738deea9f656713d6f249ff5a62ff6e98f672f7"
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/slonopotamus/docker-wsl-proxy/releases/download/$version/docker-wsl-proxy.exe"
+            }
+        }
+    }
+}
