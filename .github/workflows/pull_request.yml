@@ -15,4 +15,3 @@ jobs:
       uses: astelmachonak-nydig/GithubActions@794c13d60435d8dee4f12030ba2082c7bf29850f
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SCOOP_BRANCH: develop
