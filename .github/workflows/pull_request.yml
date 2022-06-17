@@ -12,6 +12,6 @@ jobs:
         fetch-depth: 0
         token: ${{ secrets.GITHUB_TOKEN }}    
     - name: PullRequestHandler
-      uses: astelmachonak-nydig/GithubActions@794c13d60435d8dee4f12030ba2082c7bf29850f
+      uses: ScoopInstaller/GithubActions@latest
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
