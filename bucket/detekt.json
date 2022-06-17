@@ -12,12 +12,7 @@
     "url": "https://github.com/detekt/detekt/releases/download/v1.20.0/detekt-cli-1.20.0.zip",
     "hash": "0222d129d33493ed62817c5b700e4b1dfc90e503dfcd59640f9e965de514220d",
     "extract_dir": "detekt-cli-1.20.0",
-    "bin": [
-        [
-            "bin\\detekt-cli.bat",
-            "detekt"
-        ]
-    ],
+    "bin": "bin\\detekt-cli.bat",
     "checkver": {
         "url": "https://github.com/detekt/detekt/releases",
         "regex": "detekt-cli-(?<version>[\\d\\w.]+)\\.zip"
