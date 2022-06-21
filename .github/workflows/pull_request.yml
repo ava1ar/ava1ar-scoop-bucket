@@ -12,6 +12,6 @@ jobs:
         fetch-depth: 0
         token: ${{ secrets.GITHUB_TOKEN }}    
     - name: PullRequestHandler
-      uses: ScoopInstaller/GithubActions@latest
+      uses: ScoopInstaller/GithubActions@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
