@@ -1,11 +1,11 @@
 {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Updated Git: A powerful PowerShell wrapper for git that lets you extend git, automate multiple repos, and output git as objects.REST API.",
     "homepage": "https://github.com/StartAutomating/ugit",
     "license": "MIT",
-    "url": "https://codeload.github.com/StartAutomating/ugit/zip/refs/tags/v0.2.0",
-    "hash": "a1088f59f69e0b90a8077537370aac9b1297ee57215165d1a9cdb410c86c3e5f",
-    "extract_dir": "ugit-0.2.0",
+    "url": "https://codeload.github.com/StartAutomating/ugit/zip/refs/tags/v0.2.1",
+    "hash": "4c7bb5211f5e593849c5e8ec4163c791eb31364135dfcf024daaff630d92bee6",
+    "extract_dir": "ugit-0.2.1",
     "psmodule": {
         "name": "ugit"
     },
