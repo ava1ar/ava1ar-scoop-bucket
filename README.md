@@ -1,3 +1,3 @@
 # Personal Scoop bucket
 
-[![Excavator](https://github.com/astelmachonak-nydig/astelmac-bucket/actions/workflows/excavator.yml/badge.svg?branch=master&event=schedule)](https://github.com/astelmachonak-nydig/astelmac-bucket/actions/workflows/excavator.yml)
+[![Excavator](https://github.com/ava1ar/ava1ar-scoop-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/ava1ar/ava1ar-scoop-bucket/actions/workflows/excavator.yml)
